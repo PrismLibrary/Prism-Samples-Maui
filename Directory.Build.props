@@ -1,0 +1,33 @@
+<Project>
+  <PropertyGroup>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">11.0</SupportedOSPlatformVersion>
+    <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'maccatalyst'">13.1</SupportedOSPlatformVersion>
+    <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">21.0</SupportedOSPlatformVersion>
+    <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</SupportedOSPlatformVersion>
+    <TargetPlatformMinVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</TargetPlatformMinVersion>
+    <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <!-- Versions -->
+    <ApplicationDisplayVersion>9.0</ApplicationDisplayVersion>
+    <ApplicationVersion>9</ApplicationVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- App Icon -->
+    <MauiIcon Include="$(MSBuildThisFileDirectory)\resources\appicon.svg"
+              ForegroundFile="$(MSBuildThisFileDirectory)\resources\appiconfg.svg"
+              ForegroundScale="0.65"
+              Color="#FFFFFF" />
+
+    <!-- Splash Screen -->
+    <MauiSplashScreen Include="$(MSBuildThisFileDirectory)\resources\splash.svg" Color="#FFFFFF" BaseSize="128,128" />
+  </ItemGroup>
+</Project>
