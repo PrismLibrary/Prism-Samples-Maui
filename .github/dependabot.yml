@@ -1,0 +1,21 @@
+version: 2
+updates:
+- package-ecosystem: nuget
+  directory: "/"
+  schedule:
+    interval: weekly
+    time: "10:00"
+  groups:
+    testing:
+      applies-to: version-updates
+      patterns:
+        - "Microsoft.NET.Test.Sdk"
+        - "Moq"
+        - "xunit"
+        - "xunit.*"
+        - "coverlet.msbuild"
+        - "coverlet.collector"
+        - "GitHubActionsTestLogger"
+  open-pull-requests-limit: 10
+  labels:
+  - kind/dependency
