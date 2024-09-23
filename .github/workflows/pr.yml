@@ -1,0 +1,25 @@
+name: build_samples_maui
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+jobs:
+  build-sample:
+    strategy:
+      fail-fast: false
+      matrix:
+        solution-path: [
+          'sample-template',
+        ]
+    uses: avantipoint/workflow-templates/.github/workflows/dotnet-build.yml@master
+    with:
+      runs-on: macos-latest
+      name: Build ${{ matrix.solution-path }}
+      solution-path: ${{ matrix.solution-path }}/PrismSample.sln
+      dotnet-version: 8.0.x
+      install-workload: maui maui-adndroid maui-ios
+      build-configuration: Debug
+      artifact-name: ${{ matrix.solution-path }}
+      run-tests: false
