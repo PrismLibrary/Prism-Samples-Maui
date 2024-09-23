@@ -1,8 +1,8 @@
 <Project>
   <ItemGroup>
-    <PackageVersion Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
-    <PackageVersion Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
-    <PackageVersion Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0-rc.2.23479.6" />
-    <PackageVersion Include="Prism.DryIoc.Maui" Version="9.0.271-pre" />
+    <PackageVersion Include="Microsoft.Maui.Controls" Version="8.0.90" />
+    <PackageVersion Include="Microsoft.Maui.Controls.Compatibility" Version="8.0.90" />
+    <PackageVersion Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
+    <PackageVersion Include="Prism.DryIoc.Maui" Version="9.0.537" />
   </ItemGroup>
 </Project>
