@@ -11,7 +11,7 @@ jobs:
       fail-fast: false
       matrix:
         solution-path: [
-          'sample-template',
+          '01-PrismNavigation','02-ModalNavigation','03-NonModalNavigation','04-NavigationWithTabbedPage','sample-template'
         ]
     uses: avantipoint/workflow-templates/.github/workflows/dotnet-build.yml@master
     with:

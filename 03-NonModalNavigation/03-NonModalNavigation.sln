@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-NonModalNavigation", "03-NonModalNavigation\03-NonModalNavigation.csproj", "{D720D326-5B52-48D2-8849-3733ABF97024}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D720D326-5B52-48D2-8849-3733ABF97024}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D720D326-5B52-48D2-8849-3733ABF97024}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D720D326-5B52-48D2-8849-3733ABF97024}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D720D326-5B52-48D2-8849-3733ABF97024}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D720D326-5B52-48D2-8849-3733ABF97024}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D720D326-5B52-48D2-8849-3733ABF97024}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5D17D0A6-C1DD-4D78-9C56-3B14A4EEE63C}
+	EndGlobalSection
+EndGlobal

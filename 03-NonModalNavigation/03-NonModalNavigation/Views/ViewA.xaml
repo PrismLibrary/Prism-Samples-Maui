@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_03_NonModalNavigation.Views.ViewA"
+             Title="ViewA">
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+        <Label Text="This is View A" FontSize="24" HorizontalOptions="Center" />
+        <Button Text="Go to View B" Command="{Binding NavigateToViewBCommand}" />
+    </StackLayout>
+</ContentPage>

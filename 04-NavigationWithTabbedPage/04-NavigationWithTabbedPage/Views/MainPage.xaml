@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage  xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_04_NavigationWithTabbedPage.Views.MainPage"
+             xmlns:views="clr-namespace:_04_NavigationWithTabbedPage.Views"  
+             Title="MainPage">
+    <TabbedPage.Children>
+        <NavigationPage Title="Tab 1">
+            <x:Arguments>
+                <views:Tab1Page />
+            </x:Arguments>
+        </NavigationPage>
+        <NavigationPage Title="Tab 2">
+            <x:Arguments>
+                <views:Tab2Page />
+            </x:Arguments>
+        </NavigationPage>
+        <NavigationPage Title="Tab 3">
+            <x:Arguments>
+                <views:Tab3Page />
+            </x:Arguments>
+        </NavigationPage>
+    </TabbedPage.Children>
+</TabbedPage>

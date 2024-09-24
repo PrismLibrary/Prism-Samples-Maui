@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-PrismNavigation", "01-PrismNavigation\01-PrismNavigation.csproj", "{1094537D-0E9A-4C71-B6C1-726EFA7D9703}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1094537D-0E9A-4C71-B6C1-726EFA7D9703}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1094537D-0E9A-4C71-B6C1-726EFA7D9703}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1094537D-0E9A-4C71-B6C1-726EFA7D9703}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1094537D-0E9A-4C71-B6C1-726EFA7D9703}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1094537D-0E9A-4C71-B6C1-726EFA7D9703}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1094537D-0E9A-4C71-B6C1-726EFA7D9703}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {373679DD-BD5B-49C8-AC97-A3316373A3A0}
+	EndGlobalSection
+EndGlobal
