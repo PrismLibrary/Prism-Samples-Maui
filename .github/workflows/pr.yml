@@ -19,7 +19,7 @@ jobs:
       name: Build ${{ matrix.solution-path }}
       solution-path: ${{ matrix.solution-path }}/PrismSample.sln
       dotnet-version: 8.0.x
-      install-workload: maui maui-adndroid maui-ios
+      install-workload: maui maui-android maui-ios
       build-configuration: Debug
       artifact-name: ${{ matrix.solution-path }}
       run-tests: false
